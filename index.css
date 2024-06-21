@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.main-container {
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  color: olive;
+  text-align: center;
+}
+
+.question-tag {
+  color: black;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  padding: 30px;
+  margin: 0;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-box {
+  height: 40px;
+  display: flex;
+}
+
+
+#input-tag {
+  height: 34px;
+  width: 80%;
+  font-size: 18px;
+  
+}
+#answer-btn {
+  height: 40px;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.label-tag {
+  color: olive;
+  font-size: 16px;
+}

@@ -1,11 +1,27 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>sample</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question page</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <p>sample</p>
+  
+  <div class="main-container">
+    <h1>Scheme Dojo Portal</h1>
+    <div >
+      <label class="label-tag">Question</label>
+      <p class="question-tag">(car (cdr '(apple (banana orange))))</p> 
+    </div>
+    <div class="input-container">
+      <label class="label-tag">Answer</label>
+      <div class="input-box">
+        <input class="input" id="input-tag" type="text" placeholder="Input your answer and then press enter button" /> 
+        <button class="input" id="answer-btn" >Enter</button>
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>

@@ -2,11 +2,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.hint-container {
+.question-container {
   width: 80%;
   margin: auto;
+}
+
+.hint-container {
   padding: 20px;
-  background-color: olive;
+  background-color: lightgoldenrodyellow;
   border-radius: 8px;
   justify-content: flex-start;
 }
@@ -18,10 +21,9 @@ h1 {
   margin-bottom: 20px;
 }
 
-#question {
+.question {
   color: olive;
   font-size: 25px;
-  margin-left: 150px;
   margin-bottom: 0;
 }
 
@@ -30,8 +32,14 @@ h1 {
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
-  text-align: start;
   min-height: 50px;
 }
 
-
+#back-btn{
+  display: flex;
+  margin: 20px auto; 
+}
+#back-btn a {
+  padding: 10px 40px;
+  color: black;
+}

@@ -2,18 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Welcome page</title>
+  <link rel="stylesheet" href="./welcome.css">
 </head>
 <body>
-  <nav>
-    <a class="#schemedojoportal">Scheme Dojo Portal</a>
-    <a class="#home">HOME</a> 
-    <a class="#about">ABOUT</a> 
-    <a class="#news">NEWS</a> 
-    <a class="#contact">CONTACT</a>
+  <div>
+    <nav class="menu-bar">
+      <div id="web-name-container" class="web-name-container">
+        <div class="web-name-box">
+          <p class="app-name">Scheme Dojo Portal</p>
+          <P class="version-tag">v1.0.0</P>
+        </div>
+      </div>
+      <ul class="menu-list">
+        <li><a class="menu-item">HOME</a></li> 
+        <li><a class="menu-item">ABOUT</a> </li>
+        <li><a class="menu-item">NEWS</a></li> 
+        <li><a class="menu-item">CONTACT</a></li>
+      </ul> 
     </nav>
- <img src="./image/lambda.png">   
- <p>May the Scheme be with you</p> 
+    <div class="image">
+      <img src="./image/lambda.png" />
+    </div>
+    <div class="text-tag">
+      <p>May the Scheme be with you</p> 
+    </div> 
+  </div>
 </body>
-</html>
+</html> 

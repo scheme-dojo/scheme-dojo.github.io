@@ -3,18 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Hint page</title>
+  <link rel="stylesheet" href="hint.css">
 </head>
 <body>
-  <h1>HINT</h1>
   <div>
-    <div>What is car?</div>
-    <p>Car is the first element of a list</p>
+    <h1 id="title">HINT</h1>
+    <div class="question-container">    
+      <p class="question">What is car?</p>
+      <div class="hint-container">
+        <p class="description">
+          carとは...リストの先頭の要素を取り出す操作です。<br />
+          car means … extracting the first element of a list.</p>
+        <p class="description">example:<br>
+          (car `(apple))
+          => `apple<br>
+          (car `((apple) (banana) (orange)))
+          => `(apple)
+          </p>
+      </div>
+    </div>
+    <div class="question-container">
+      <p class="question">What is cdr?</p>
+      <div class="hint-container">
+        <p class="description">cdrとは....リストの先頭の要素を取り除いた残りのリストを作る操作です。<br />
+          cdr means … creating a new list after removing the first element from the original list.</p>
+        <p class="description">example:<br>
+          (cdr `(apple))
+          => `()<br>
+          (cdr `((apple) (banana) (orange)))
+          => `((banana) (orange))</p>
+      </div>  
+    </div>
+    <button id="back-btn"> 
+      <a href="./index.html">Back</a>
+    </button>
   </div>
-  <div>
-    <div>What is cdr?</div>
-    <p>cdr is the remain of the list without the car list</p>
-  </div>  
-  <button id="back">Back</button>
 </body>
 </html>

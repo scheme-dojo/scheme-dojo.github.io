@@ -1,13 +1,13 @@
-html body {
+html, body {
   margin: 0;
   height: 100%;
 }
 
-#menu-br {
+.menu-bar {
   display: flex; 
 }
 
-#web-name-container {
+.web-name-container {
   background-color: lightgoldenrodyellow ;
   width: 30%;
   display: flex;
@@ -15,38 +15,35 @@ html body {
   padding: 4px 10px;
 }
 
-
-#web-logo {
-  width: 40px;
-  height: 35px;
-}
-#app-name {
+.app-name {
   margin: 0;
   font-size: 25px;
 }
-#version-tag{
+
+.version-tag{
   margin: 0;
   font-size: 12px;
 }
 
-ul {
+.menu-list {
   display: flex; 
   width: 100%;
   margin: 0;
   padding: 0;
   width: 70%;
 }
-li {
-   list-style: none;   
+.menu-list li {
+  list-style: none;   
   width: 100%;
   display: flex;
   border-right: 1px solid #ffffff;
 }
-li:last-child{
+
+.menu-list li:last-child{
   border-right: none;
 }
 
-li a {
+.menu-item {
   background-color: grey;
   color: white;
   width: 100%;
@@ -54,15 +51,7 @@ li a {
   display: flex;
   justify-content: center;
   align-items: center;
- }
-
-li a:hover:not(.active) {
-  background-color: black;
 }
-
-.active {
-  background-color: #ade4d0;
-}  
 
 .image {
   margin-top: 60px;
@@ -70,7 +59,7 @@ li a:hover:not(.active) {
   text-align: center;
 }
 
-#text-tag {
+.text-tag {
   text-align: center;
   font-size: 32px;
   color: olive;

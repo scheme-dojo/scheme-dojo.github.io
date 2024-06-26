@@ -8,14 +8,14 @@
 </head>
 <body>
   <div>
-    <h1>HINT</h1>
+    <h1 id="title">HINT</h1>
     <div class="question-container">    
       <p class="question">What is car?</p>
       <div class="hint-container">
-        <p class="explanation-pra">
+        <p class="description">
           carとは...リストの先頭の要素を取り出す操作です。<br />
           car means … extracting the first element of a list.</p>
-        <p class="explanation-pra">example:<br>
+        <p class="description">example:<br>
           (car `(apple))
           => `apple<br>
           (car `((apple) (banana) (orange)))
@@ -26,9 +26,9 @@
     <div class="question-container">
       <p class="question">What is cdr?</p>
       <div class="hint-container">
-        <p class="explanation-pra">cdrとは....リストの先頭の要素を取り除いた残りのリストを作る操作です。<br />
+        <p class="description">cdrとは....リストの先頭の要素を取り除いた残りのリストを作る操作です。<br />
           cdr means … creating a new list after removing the first element from the original list.</p>
-        <p class="explanation-pra">example:<br>
+        <p class="description">example:<br>
           (cdr `(apple))
           => `()<br>
           (cdr `((apple) (banana) (orange)))
@@ -38,7 +38,6 @@
     <button id="back-btn"> 
       <a href="./index.html">Back</a>
     </button>
-      
   </div>
 </body>
 </html>

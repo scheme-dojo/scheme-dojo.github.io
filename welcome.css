@@ -19,7 +19,6 @@ html, body {
   margin: 0;
   font-size: 25px;
 }
-
 .version-tag{
   margin: 0;
   font-size: 12px;
@@ -51,6 +50,10 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+ }
+
+.menu-list a:hover { 
+  background-color: black;
 }
 
 .image {

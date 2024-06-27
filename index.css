@@ -31,13 +31,13 @@ h1 {
 }
 
 
-#input-tag {
+.input-tag {
   height: 34px;
   width: 80%;
   font-size: 18px;
   
 }
-#answer-btn {
+.enter-btn {
   height: 40px;
   width: 20%;
   margin-left: 20px;

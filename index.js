@@ -1,4 +1,4 @@
-const correctAnswer = "(banana orange)"
+const correctAnswer = "(banana orange)";
 
 const checkAnswer = () => {
 
@@ -6,9 +6,9 @@ const checkAnswer = () => {
 
   console.log(userAnswer);
   if (userAnswer === correctAnswer) {
-    window.location.href ="welcome.html"
+    window.location.href ="welcome.html";
   } else {
-    window.location.href ="hint.html"
+    window.location.href ="hint.html";
   }
 }
 

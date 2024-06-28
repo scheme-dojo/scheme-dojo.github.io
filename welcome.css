@@ -1,6 +1,5 @@
 html, body {
   margin: 0;
-  height: 100%;
 }
 
 .menu-bar {
@@ -10,16 +9,21 @@ html, body {
 .web-name-container {
   background-color: lightgoldenrodyellow ;
   width: 30%;
-  display: flex;
-  align-items: center;
+  height: 42px;
+  display: block;
   padding: 4px 10px;
 }
 
+.web-name-box {
+  font-size: small;
+  display: block;
+}
 .app-name {
   margin: 0;
-  font-size: 25px;
-}
+  font-size: 20px;
+  display: block;
 
+}
 .version-tag{
   margin: 0;
   font-size: 12px;
@@ -51,6 +55,10 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+ }
+
+.menu-list a:hover { 
+  background-color: black;
 }
 
 .image {

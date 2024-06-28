@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  height: 100%;
-}
-
 .main-container {
   width: 70%;
   margin: auto;
@@ -19,6 +14,7 @@ h1 {
   background-color: lightgoldenrodyellow;
   padding: 30px;
   margin: 0;
+  font-size: 20px;
 }
 
 .input-container {
@@ -31,13 +27,13 @@ h1 {
 }
 
 
-#input-tag {
+.input-tag {
   height: 34px;
   width: 80%;
   font-size: 18px;
   
 }
-#answer-btn {
+.enter-btn {
   height: 40px;
   width: 20%;
   margin-left: 20px;
@@ -47,3 +43,14 @@ h1 {
   color: olive;
   font-size: 16px;
 }
+
+.image {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.img {
+  height: 150px;
+}
+

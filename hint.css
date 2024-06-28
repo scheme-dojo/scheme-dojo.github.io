@@ -14,7 +14,7 @@ html, body {
   justify-content: flex-start;
 }
 
-#title {
+.title {
   color: olive;
   text-align: center;
   font-size: 2em;
@@ -35,7 +35,7 @@ html, body {
   min-height: 50px;
 }
 
-#back-btn{
+.back-btn{
   display: flex;
   margin: 20px auto;
   color: black; 

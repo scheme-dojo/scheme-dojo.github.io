@@ -7,7 +7,7 @@ html, body {
 }
 
 .web-name-container {
-  background-color: lightgoldenrodyellow ;
+  background-color: lightgoldenrodyellow;
   width: 30%;
   height: 42px;
   display: block;
@@ -18,12 +18,14 @@ html, body {
   font-size: small;
   display: block;
 }
+
 .app-name {
   margin: 0;
   font-size: 20px;
   display: block;
 
 }
+
 .version-tag{
   margin: 0;
   font-size: 12px;
@@ -36,6 +38,7 @@ html, body {
   padding: 0;
   width: 70%;
 }
+
 .menu-list li {
   list-style: none;   
   width: 100%;

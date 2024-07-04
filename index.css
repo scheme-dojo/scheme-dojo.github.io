@@ -8,7 +8,7 @@ html, body {
   margin: auto;
 }
 
-h1 {
+.title {
   color: olive;
   text-align: center;
 }
@@ -21,7 +21,6 @@ h1 {
   margin: 0;
 }
 
-
 .input-container {
   margin-top: 1.25em;
   width: auto;
@@ -33,18 +32,19 @@ h1 {
   flex-direction: column;
 }
 
-
 .input-tag {
-  height: 3em;
+  height: 3.45em;
   width: auto;
   font-size: 0.75em;
-  
 }
+
 .enter-btn {
-  height: 2.5em;
+  height: 47px;
   width: 100%;
-  margin-top: 1em;
+  margin-top: 1.25em;
   margin-left: 0;
+  background-color: lightgoldenrodyellow;
+  color: black;
 }
 
 .label-tag {
@@ -54,8 +54,7 @@ h1 {
   margin: 2%;
 }
 
-
-.image {
+.img-around {
   margin-top: 3.75em;
   margin-bottom: 3.75em;
   text-align: center;
@@ -63,14 +62,15 @@ h1 {
   height: auto;
 }
 
-.img {
+.image {
   height: 150px;
   max-width: 60%;
 }
 
+/* When viewing from a mobile phone*/
 @media (min-width: 800px) {
   .input-box {
-    flex-direction: row !important; 
+    flex-direction: row !important;
   }
   
   .input-tag {
@@ -78,7 +78,6 @@ h1 {
   }
   
   .enter-btn {
-    height: 40px;
     width: 20%;
     margin-left: 1em; 
     margin-top: 0;

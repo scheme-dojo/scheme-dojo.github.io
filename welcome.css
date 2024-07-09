@@ -23,7 +23,6 @@ html, body {
   margin: 0;
   font-size: 20px;
   display: block;
-
 }
 
 .version-tag{
@@ -72,55 +71,48 @@ html, body {
 
 .text-tag {
   text-align: center;
-  font-size: 32px;
+  font-size: 38px;
   color: olive;
 }
 
 .fa-bars::before {
   display: none;
-  cursor: pointer;
-  font-size: 22px;
+  font-size: 32px;
 }
-
-/* serch how to desin navagition menu bar
-how to give responsive design to navagiton menu bar 
-virtical nav disign
-
-
-how to hide menu when click on icon 
-
-how to design three line icon when click icon, it show a menu 
-
-website nav menu bar for mobile screen 
-
-
-how to show menu on top of the page 
-
-*/
- 
 
 input[type="checkbox"]{
   display: none;
 }
 
 @media (max-width: 800px) {
-  .fa-bars:before{
+  .burger-icon:before{
     display: block;
+    margin-top: 3%;
+  }
+
+  .menu-btn {
+    position: absolute;
+    right: 0;
+    margin: 8px;
+    z-index: 3;
   }
 
   #click:checked ~ .menu-btn i:before{
     content: "\f00d";
   }
 
+  #click:checked ~ .menu-btn {
+    color: white;
+    font-size: 32px;
+  }
+
   .menu-list {
    position: fixed;
-   top: 80px;
-   /* left: -100%; */
-   height: 100vh;
    width: 100%;
    display: none;
    text-align: center;
    transition: all 0.3s ease;
+   opacity: 90%;
   }
 
   .web-name-container {
@@ -130,33 +122,33 @@ input[type="checkbox"]{
   }
 
   #click:checked ~ .menu-list{
-    display: block ;
-    /* background: red; */
+    display: block;
   }
 
-  /* .menu-item {
-    margin: 0;
-    padding: 0%;
-  } */
+  .menu-list li {
+    background-color: olive;
+  }
 
-  /* #click:checked ~ ul .menu-list{
-    left: 0%;
-  } */
+  .menu-list a:hover {
+    background-color: rgb(167, 167, 1);
+  }
 
-  /* .menu-list.open {
-    display: flex;
-  } */
+  .text-tag{
+    font-size: 38px;
+    margin-right: 50px ;
+    margin-left: 50px;
+  }
 
-  /* nav ul li a{
-    width: 100%;
-    margin-left: -100%;
-    display: block;
-    font-size: 20px;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  } */
-  
-  /* #click:checked ~ ul li a{
-    margin-left: 0px;
-  } */
-} 
+  .menu-item{
+    font-size: 25px;
+    font: bold;
+  }
 
+  .app-name{
+    font-size: 27px;
+  }
+
+  .version-tag{
+    font-size: 16px;
+  }
+}

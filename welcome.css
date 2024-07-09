@@ -57,7 +57,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
- }
+}
 
 .menu-list a:hover { 
   background-color: black;
@@ -75,12 +75,12 @@ html, body {
   color: olive;
 }
 
-.fa-bars::before {
+.burger-icon:before {
   display: none;
   font-size: 32px;
 }
 
-input[type="checkbox"]{
+.click-icon {
   display: none;
 }
 
@@ -97,11 +97,11 @@ input[type="checkbox"]{
     z-index: 3;
   }
 
-  #click:checked ~ .menu-btn i:before{
+  .click-icon:checked ~ .menu-btn i:before{
     content: "\f00d";
   }
 
-  #click:checked ~ .menu-btn {
+  .click-icon:checked ~ .menu-btn {
     color: white;
     font-size: 32px;
   }
@@ -117,11 +117,9 @@ input[type="checkbox"]{
 
   .web-name-container {
     width: 100%;
-    justify-content: space-between;
-    display: flex;
-  }
+  } 
 
-  #click:checked ~ .menu-list{
+  .click-icon:checked ~ .menu-list{
     display: block;
   }
 

@@ -1,3 +1,4 @@
+/* Common CSS styles */
 html, body {
   margin: 0;
 }
@@ -6,17 +7,12 @@ html, body {
   display: flex; 
 }
 
-.web-name-container {
+.scheme-dojo-portal-container {
   background-color: lightgoldenrodyellow;
   width: 30%;
   height: 42px;
   display: block;
   padding: 4px 10px;
-}
-
-.web-name-box {
-  font-size: small;
-  display: block;
 }
 
 .app-name {
@@ -50,6 +46,10 @@ html, body {
   border-right: none;
 }
 
+.menu-list a:hover { 
+  background-color: black;
+}
+
 .menu-item {
   color: white;
   width: 100%;
@@ -57,10 +57,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.menu-list a:hover { 
-  background-color: black;
+  text-decoration: none;
 }
 
 .image {
@@ -75,15 +72,17 @@ html, body {
   color: olive;
 }
 
+/* For PC styles */
 .burger-icon:before {
   display: none;
   font-size: 32px;
 }
 
-.click-icon {
+.cancel-button {
   display: none;
 }
 
+/* For Mobile styles */
 @media (max-width: 800px) {
   .burger-icon:before{
     display: block;
@@ -97,11 +96,11 @@ html, body {
     z-index: 3;
   }
 
-  .click-icon:checked ~ .menu-btn i:before{
+  .cancel-button:checked ~ .menu-btn i:before{
     content: "\f00d";
   }
 
-  .click-icon:checked ~ .menu-btn {
+  .cancel-button:checked ~ .menu-btn {
     color: white;
     font-size: 32px;
   }
@@ -115,11 +114,12 @@ html, body {
    opacity: 90%;
   }
 
-  .web-name-container {
+  .scheme-dojo-portal-container {
     width: 100%;
+    height: 55px;
   } 
 
-  .click-icon:checked ~ .menu-list{
+  .cancel-button:checked ~ .menu-list{
     display: block;
   }
 

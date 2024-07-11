@@ -78,7 +78,7 @@ html, body {
   font-size: 32px;
 }
 
-.cancel-button {
+.close-button {
   display: none;
 }
 
@@ -96,11 +96,11 @@ html, body {
     z-index: 3;
   }
 
-  .cancel-button:checked ~ .menu-btn i:before{
+  .close-button:checked ~ .menu-btn i:before{
     content: "\f00d";
   }
 
-  .cancel-button:checked ~ .menu-btn {
+  .close-button:checked ~ .menu-btn {
     color: white;
     font-size: 32px;
   }
@@ -112,6 +112,7 @@ html, body {
    text-align: center;
    transition: all 0.3s ease;
    opacity: 90%;
+   height: 100%;
   }
 
   .scheme-dojo-portal-container {
@@ -119,12 +120,13 @@ html, body {
     height: 55px;
   } 
 
-  .cancel-button:checked ~ .menu-list{
+  .close-button:checked ~ .menu-list{
     display: block;
   }
 
   .menu-list li {
     background-color: olive;
+    border-right: none;
   }
 
   .menu-list a:hover {

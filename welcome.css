@@ -21,7 +21,7 @@ html, body {
   display: block;
 }
 
-.version-tag{
+.version-tag {
   margin: 0;
   font-size: 12px;
 }
@@ -42,7 +42,7 @@ html, body {
   border-right: 1px solid #ffffff;
 }
 
-.menu-list li:last-child{
+.menu-list li:last-child {
   border-right: none;
 }
 
@@ -78,7 +78,7 @@ html, body {
   font-size: 32px;
 }
 
-.close-button {
+.close-btn {
   display: none;
 }
 
@@ -96,11 +96,11 @@ html, body {
     z-index: 3;
   }
 
-  .close-button:checked ~ .menu-btn i:before{
+  .close-btn:checked ~ .menu-btn i:before {
     content: "\f00d";
   }
 
-  .close-button:checked ~ .menu-btn {
+  .close-btn:checked ~ .menu-btn {
     color: white;
     font-size: 32px;
   }
@@ -120,7 +120,7 @@ html, body {
     height: 55px;
   } 
 
-  .close-button:checked ~ .menu-list{
+  .close-btn:checked ~ .menu-list {
     display: block;
   }
 
@@ -133,22 +133,22 @@ html, body {
     background-color: rgb(167, 167, 1);
   }
 
-  .text-tag{
+  .text-tag {
     font-size: 38px;
     margin-right: 50px ;
     margin-left: 50px;
   }
 
-  .menu-item{
+  .menu-item {
     font-size: 25px;
     font: bold;
   }
 
-  .app-name{
+  .app-name {
     font-size: 27px;
   }
 
-  .version-tag{
+  .version-tag {
     font-size: 16px;
   }
 }

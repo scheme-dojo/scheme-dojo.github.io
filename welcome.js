@@ -1,12 +1,7 @@
 const closeMenu = () => {
-  const checkBoxTag =  document.getElementById("close-button"); 
-  checkBoxTag.checked = false
+  const checkBoxTag = document.getElementById("close-btn"); 
+  checkBoxTag.checked = false;
 }
 
-const menuList = document.querySelector("#menuList"); 
-menuList.addEventListener("click", closeMenu)
-
-
-
-
-  
+const menuList = document.getElementById("menu-list"); 
+menuList.addEventListener("click", closeMenu);

@@ -4,36 +4,34 @@
   <meta charset="UTF-8">
   <title>Welcome page</title>
   <link rel="stylesheet" href="./welcome.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <div>
     <nav class="menu-bar">
       <div id="scheme-dojo-portal-container" class="scheme-dojo-portal-container">
-        <div>
-          <p class="app-name">Scheme Dojo Portal</p>
-          <P class="version-tag">v1.0.0</P>
-        </div>
+        <p class="app-name">Scheme Dojo Portal</p>
+        <P class="version-tag">v1.0.0</P>
       </div>
       <!-- The style when viewed on mobile. -->
-      <input class="close-button" type="checkbox" id="close-button">
-      <label for="close-button" class="menu-btn">
+      <input class="close-btn" id="close-btn" type="checkbox">
+      <label for="close-btn" class="menu-btn">
         <i class="fas fa-bars burger-icon"></i>
       </label>
-      <ul class="menu-list" id="menuList">
-        <li><a href="./index.html" class="menu-item">HOME</a></li> 
-        <li><a class="menu-item" id="menuItem">ABOUT</a> </li>
-        <li><a class="menu-item" id="menuItem">NEWS</a></li> 
-        <li><a class="menu-item" id="menuItem">CONTACT</a></li>
-      </ul> 
+      <ul class="menu-list" id="menu-list">
+        <li><a href="./index.html" class="menu-item">HOME</a></li>
+        <li><a class="menu-item">ABOUT</a> </li>
+        <li><a class="menu-item">NEWS</a></li>
+        <li><a class="menu-item">CONTACT</a></li>
+      </ul>
     </nav>
     <div class="image">
       <img src="./image/lambda.png"/>
     </div>
     <div class="text-tag">
-      <p>May the Scheme be with you</p> 
-    </div> 
+      <p>May the Scheme be with you</p>
+    </div>
   </div>
   <script src="./welcome.js"></script>
 </body>
